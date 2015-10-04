@@ -1,0 +1,24 @@
+{
+  "key": "bitbucket-rethink-analysis",
+  "name": "Bitbucket Rethink Analysis",
+  "description": "Shows the pull Analysis for a perticular user",
+  "baseUrl": "https://08b7c169.ngrok.io",
+  "modules": {
+    "repoPage": [{
+      "key": "rethink",
+      "name": {
+        "value": "Pull Rethinker Analysis"
+      },
+      "url": "/rethink.html",
+      "location": "org.bitbucket.repository.navigation",
+      "params": {
+        "auiIcon": "aui-iconfont-image"
+      }
+    }],
+    "oauthConsumer": {
+      "clientId": "Zcr2rxKeUyY8YCkDbB"
+    }
+  },
+  "scopes": ["repository"],
+  "contexts": ["personal"]
+}
